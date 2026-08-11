@@ -1,0 +1,17 @@
+# Ignora dependencias de Node de forma global
+**/node_modules/
+
+# Ignora compilaciones
+**/dist/
+**/.angular/
+
+# IGNORA VARIABLES DE ENTORNO
+**/.env
+**/.env.development
+**/.env.production
+
+# Archivos de editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
