@@ -44,7 +44,7 @@
           <td>
             {{ product.price | currency }}
           </td>
-          <span>
+          <td>
             @if (product.stock <= 10) {
               <span class="badge badge-error">{{ product.stock }}</span>
             }
@@ -56,7 +56,7 @@
             @else {
               <span class="badge badge-success">{{ product.stock }}</span>
             }
-          </span>
+          </td>
           <th>
             <a [routerLink]="['/admin/products', product.id]"
               class="btn btn-ghost text-accent btn-xs">
